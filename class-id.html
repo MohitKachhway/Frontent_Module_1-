@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID in HTML</title>
+    <style>
+        .city{
+            background-color: rgb(226, 70, 43);
+            color: black;
+            border: 2px;
+            margin: auto;
+            padding: 0ch;
+        }
+        .city2{
+            background-color: rgb(43, 226, 125);
+            color: black;
+            border: 2px solid black;
+            margin: auto;
+            padding: 0ch;
+        }
+        .city3{
+            background-color: rgb(43, 226, 125);
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        .highlight{
+            font-size: 120%;
+            color: brown;
+        }
+        /* IDs */
+        /* #myId{
+            background-color: rgb(215, 250, 239); */
+        /* } */
+        #myId{
+            background-color: antiquewhite;
+        }
+        table,th,tr,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="city2">
+        <h4 id="myId">learn class attritube in html</h4>
+        <p>In this session we will learn about <span class="city" >follow and like</span>class attritube.
+            we create a class in head tag in html then we use it in body tag for any elements.
+        </p>
+    </div><br>
+
+    <div class="city3"> 
+        <h4>some examples</h4>
+        <P>in this file we have create a class name city in which we describe the style , 
+            then we have used it in 2 div elements.</P>
+    </div><br>
+    <div>
+        <h4>My <span class="highlight">class</span> is created</h4>
+        <P>We have <span class="highlight">created</span> classes now we can use it in any element.</P>
+    </div><br>
+    <table>
+        <tr>
+           <th colspan="2">Score</th>
+           <th>Amount</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1000</td>
+            <td>min</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td rowspan="2">max</td>
+            <td>300</td>
+        </tr>
+
+        <tr>
+            <td>400</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

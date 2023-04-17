@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h2>Please enter below details</h2>
+        <h4>General details</h4>
+            <div>
+                <lable for="username">username : </lable><br>
+                <input type="text" name="name" placeholder="enter your name" readonly value="mohit" disabled>
+            </div>
+            <!-- 
+            some validation input attritubes :
+            -readonly
+            -disabled
+            -requried
+            -checked
+            -pattern 
+            -->
+            <div>
+                <lable for="phonenumber">Phone Number :</lable><br>
+                <input type="tel" name="phonenumber" placeholder="enter phone number" required maxlength="10">
+            </div>
+            <div> 
+                <label for="gmail" >Gmail: </label><br>
+                <input type="email" name="gmail" placeholder="enter email">
+            </div>
+            <div>
+                <label for="Gender" >Gender : </label><br>
+                   Male       <input type="radio" name ="gender"><br>
+                Female <input type="radio" name ="gender">
+            </div>
+            <!-- checkbox options -->
+            <div>
+                <label for="option">select the subject : </label><br>
+                html <input type="checkbox" name="html" checked><br>
+                css <input type="checkbox" name="css"><br>
+                js <input type="checkbox" name="js">
+            </div>
+            
+            <!-- date and time -->
+            <div>
+                <lable for="date" >select the date</lable><br>
+                <input type="date" name="date"><br>
+                <input type="datetime-local" name ="datetime-local">
+            </div>
+
+            <!-- choose file -->
+            <div>
+                <input type="file" name ="file"><br><br>
+            </div>
+
+            <!-- drag and drop -->
+            <div>
+                <lable for="subject">select your primary subject</lable>
+                    <select name="subject">
+                        <option value="select">--select--</option>
+                        <option value="maths">Maths</option>
+                        <option value="science">science</option>
+                        <option value="hindi">hindi</option>
+                    </select><br><br>
+            </div>
+
+            <!-- make text area -->
+            <div>
+                <label for="address">Address: </label><br>
+                <input type="textarea"  col="50" row="20">
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+                
+            
+    </form>
+
+</body>
+</html>
